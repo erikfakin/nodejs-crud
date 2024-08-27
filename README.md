@@ -28,8 +28,6 @@ Na frontend strani koristimo DevExtreme dxDataGrid komponentu u kombinaciji sa j
 
 ## Instalacija
 
-Nakon kloniranja repozitorija.
-
 1. **Klonirajte repozitorij**
 
    ```bash
@@ -62,14 +60,14 @@ API rute
 - **DELETE /api/users/:id** - Ova ruta briše korisnika s određenim ID-jem.
 
 ### Primjer tijela requesta (JSON)
-    ```json
-    {
-    "ime": "Marija",
-    "prezime": "Horvat",
-    "email": "marija.horvat@example.com",
-    "brojTelefona": "+385 (0)91 234 5678"
-    }
-    ```
+```json
+{
+"ime": "Marija",
+"prezime": "Horvat",
+"email": "marija.horvat@example.com",
+"brojTelefona": "+385 (0)91 234 5678"
+}
+```
 
 ## Frontend
 
