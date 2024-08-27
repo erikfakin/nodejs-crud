@@ -62,10 +62,10 @@ API rute
 ### Primjer tijela requesta (JSON)
 ```json
 {
-"ime": "Marija",
-"prezime": "Horvat",
-"email": "marija.horvat@example.com",
-"brojTelefona": "+385 (0)91 234 5678"
+    "ime": "Marija",
+    "prezime": "Horvat",
+    "email": "marija.horvat@example.com",
+    "brojTelefona": "+385 (0)91 234 5678"
 }
 ```
 
