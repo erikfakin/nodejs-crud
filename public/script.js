@@ -7,11 +7,9 @@ $(() => {
             return sendRequest(`${URL}/`);
         },
         insert(values) {
-            console.log(JSON.stringify(values))
             return sendRequest(`${URL}/`, 'POST', JSON.stringify(values));
         },
         update(key, values) {
-            console.log(values)
             return sendRequest(`${URL}/${key}`, 'PUT', JSON.stringify(values),
             );
         },
